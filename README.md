@@ -27,7 +27,7 @@ This is a decentralized applcation built using Solidity and React.
 #### Setting up the local development environment
 Run the ganache Blockchain and type the following commands in terminal:
 
-`git clone https://github.com/arpitkarnatak/election-dapp.git `
+`git clone https://github.com/siddharthmehta02/decentralised-voting-system.git `
 
 `npm install `
 
