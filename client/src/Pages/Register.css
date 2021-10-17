@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Varela Round', sans-serif;
+    opacity: 0.7;
+
+}
+
+.App{
+}
+
+.card{
+    width:40%;
+    margin-left: 15%;
+
+}
+
+.fields{
+    background: rgb(255,137,0);
+background: linear-gradient(20deg, #d63909c9 0%, rgba(253, 165, 2, 0.726) 100%);
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button{
+    background-color:rgba(253, 165, 2, 0.726) ;
+    width: max-content;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgba(253, 165, 2, 0.849);
+}
+
+.field{
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+input{
+    width: 100%;
+    /* border-color: none; */
+    background-color: transparent;
+    /* border:0 solid white;     */
+    border-bottom: 2px solid rgb(143, 50, 14);
+    font-size: 14px;
+}
+
+.label{
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.votingImage{
+    width: 40%;
+    margin-right: 5%;
+}
+
+.quote{
+    margin-left: 30%;
+    font-size: 20px;
+    opacity: 0.6;
+}
+  

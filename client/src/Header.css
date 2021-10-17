@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+.main{
+    background-color:#af401e;
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+    animation: gradient 15s ease infinite;
+    width : 100% !important;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: azure;
+}
+
+.active{
+    background-color: #ff3c00;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+p{
+    cursor: pointer;
+}
+
+.unactive:hover{
+    opacity: 0.8;
+}
+
+h1{
+    color: #f8f8f8aa;
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: 'Ephesis', cursive;
+
+
+}
+
+input::placeholder{
+    color: #03030388;
+}
+
